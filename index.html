@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai Genrator Picture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WIIBOU AI Image Generator</h1>
+        <p>Write your prompt to generate images with power of Ai , For 
+            Exemple : "Best quality , masterpiece , extrmly Detailed , High resolution
+            Cat with long hair , cute , magical " . </p>
+            <form class="gen-form">
+                <input type="text" id="user-prompt" , placeholder="Type your prompt here ..." autocomplete="off">
+               <button type="button" id="generate">Generate </button> 
+            </form>
+            <div class="rsult">
+                <div id="loading"> Generating ... </div>
+                <div id="image-grid"></div>
+            </div>
+    </div>
+ <script src="main.js"></script>
+</body>
+</html>
